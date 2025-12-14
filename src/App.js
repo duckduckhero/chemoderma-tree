@@ -12,6 +12,7 @@ import 'reactflow/dist/style.css';
 
 import CustomNode from './components/CustomNode';
 import PhenotypeDetailsPanel from './components/PhenotypeDetailsPanel';
+import NavigationBar from './components/NavigationBar';
 import { transformTreeToReactFlow, getPhenotypeDetails } from './utils/dataTransform';
 import './App.css';
 
@@ -57,7 +58,7 @@ function App() {
     const { nodes: initialNodes, edges: initialEdges } = transformTreeToReactFlow(treeData);
     
     // Apply dagre layout - increased horizontal spacing (ranksep) for wider tree
-    dagreGraph.setGraph({ rankdir: 'LR', nodesep: 60, ranksep: 800 });
+    dagreGraph.setGraph({ rankdir: 'LR', nodesep: 40, ranksep: 200 });
     
     initialNodes.forEach((node) => {
       dagreGraph.setNode(node.id, { width: nodeWidth, height: nodeHeight });
@@ -122,7 +123,7 @@ function App() {
     // Recalculate layout for visible nodes only
     const tempGraph = new dagre.graphlib.Graph();
     tempGraph.setDefaultEdgeLabel(() => ({}));
-    tempGraph.setGraph({ rankdir: 'LR', nodesep: 60, ranksep: 800 });
+    tempGraph.setGraph({ rankdir: 'LR', nodesep: 40, ranksep: 200 });
     
     visibleNodes.forEach((node) => {
       tempGraph.setNode(node.id, { width: nodeWidth, height: nodeHeight });
@@ -209,6 +210,7 @@ function App() {
 
   return (
     <div className="app-container">
+      <NavigationBar />
       <div className="reactflow-wrapper">
         <ReactFlow
           nodes={nodes}

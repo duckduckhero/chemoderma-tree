@@ -20,11 +20,11 @@
 
 .phenotype-details-panel {
   position: fixed;
-  top: 0;
+  top: 60px; /* Below navigation bar */
   right: 0;
   width: 400px;
   max-width: 90vw;
-  height: 100vh;
+  height: calc(100vh - 60px); /* Full height minus navigation bar */
   background: white;
   box-shadow: -4px 0 20px rgba(0, 0, 0, 0.15);
   z-index: 1000;
