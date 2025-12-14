@@ -1,0 +1,78 @@
+.custom-node {
+  padding: 10px 15px;
+  border-radius: 8px;
+  border: 2px solid;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.2s ease;
+  cursor: pointer;
+  min-width: 120px;
+  text-align: center;
+}
+
+.custom-node:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transform: translateY(-2px);
+}
+
+.custom-node.selected {
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+/* Root Node */
+.node-root {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-color: #667eea;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 15px 20px;
+  min-width: 200px;
+}
+
+/* Therapy Class Node */
+.node-therapy-class {
+  background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
+  color: white;
+  border-color: #f5576c;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* Drug Subclass Node */
+.node-drug-subclass {
+  background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
+  color: white;
+  border-color: #4facfe;
+  font-weight: 500;
+  font-size: 13px;
+}
+
+/* Phenotype Node */
+.node-phenotype {
+  background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);
+  color: #1a1a1a;
+  border-color: #43e97b;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.node-phenotype:hover {
+  background: linear-gradient(135deg, #38d975 0%, #2ee9c7 100%);
+  transform: translateY(-2px) scale(1.05);
+}
+
+.node-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.node-label {
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  max-width: 150px;
+  line-height: 1.3;
+}
+

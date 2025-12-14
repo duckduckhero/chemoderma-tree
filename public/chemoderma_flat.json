@@ -1,0 +1,1732 @@
+[
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "AKT Inhibitors",
+    "phenotype": "Erythema multiforme-like rash",
+    "cut_id": "CUT006",
+    "incidence": "Not specified",
+    "tti": "Not specified",
+    "management_prevention": "Management: Topical steroids, systemic steroids for severe cases.",
+    "drug_examples": [
+      "Capivasertib"
+    ],
+    "drug_examples_raw": "Capivasertib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "AKT Inhibitors",
+    "phenotype": "Maculopapular Rash",
+    "cut_id": "CUT027",
+    "incidence": "~56%",
+    "tti": "1-2 weeks",
+    "management_prevention": "Management: Topical steroids, antihistamines. Similar to PI3K inhibitor rash management.",
+    "drug_examples": [
+      "Capivasertib"
+    ],
+    "drug_examples_raw": "Capivasertib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "AKT Inhibitors",
+    "phenotype": "Stomatitis / mIAS",
+    "cut_id": "CUT040",
+    "incidence": "Lower frequency than mTOR inhibitors",
+    "tti": "Not specified",
+    "management_prevention": "Prevention: Alcohol-free Dexamethasone mouthwash (0.5 mg/5 mL) swish and spit 4 times daily. Management: Grade 1: Non-alcoholic mouthwash, salt water. Grade 2: Topical steroids (Triamcinolone), topical anesthetics. Hold drug. Grade 3: Interrupt drug until Grade ≤1, then restart at reduced dose. Avoid alcohol/hydrogen peroxide mouthwashes.",
+    "drug_examples": [
+      "Capivasertib",
+      "Ipatasertib"
+    ],
+    "drug_examples_raw": "Capivasertib, Ipatasertib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "BRAF Inhibitors",
+    "phenotype": "Acneiform Rash (Acneiform eruption)",
+    "cut_id": "CUT042",
+    "incidence": "~68% less common than maculo-papular rash",
+    "tti": "Within 2 weeks (Mean 1.6 weeks)",
+    "management_prevention": "Prevention: Hypoallergenic moisturizers, tepid showers. Management: Grade 1: Moisturizers, topical steroids, topical antibiotics (Clindamycin). Grade 2: Oral antihistamines, mid-potency topical steroids. Grade 3: Interruption or dose reduction, systemic steroids.",
+    "drug_examples": [
+      "Vemurafenib",
+      "Dabrafenib",
+      "Encorafenib"
+    ],
+    "drug_examples_raw": "Vemurafenib, Dabrafenib, Encorafenib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "BRAF Inhibitors",
+    "phenotype": "Alopecia",
+    "cut_id": "CUT001",
+    "incidence": "8-36%",
+    "tti": "Early onset but not specified",
+    "management_prevention": "Usually nonscarring and reversible. Management: Wigs (Grade 1), Minoxidil (may help shorten duration), topical steroids (non-scarring).",
+    "drug_examples": [
+      "Vemurafenib",
+      "Dabrafenib",
+      "Encorafenib"
+    ],
+    "drug_examples_raw": "Vemurafenib, Dabrafenib, Encorafenib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "BRAF Inhibitors",
+    "phenotype": "Hand-Foot Syndrome (HFSR, Hyperkeratotic plaques)",
+    "cut_id": "CUT039",
+    "incidence": "34% (Sorafenib) High prevalence of hyperkeratosis in BRAFi",
+    "tti": "BRAFi: 8-36 weeks (Peak 6-12 weeks); Sorafenib: 4-8 weeks",
+    "management_prevention": "Prevention: Comfortable shoes, thick cotton socks, remove calluses beforehand. Management: Grade 1: Keratolytics (Urea 10-40%, Salicylic acid) and moisturizers. Grade 2+: Potent topical steroids (Clobetasol), topical anesthetics (Lidocaine), analgesics (NSAIDs, GABA agonists). Severe: Interrupt drug.",
+    "drug_examples": [
+      "Sorafenib (High frequency)",
+      "Vemurafenib",
+      "Dabrafenib",
+      "Encorafenib"
+    ],
+    "drug_examples_raw": "Sorafenib (High frequency), Vemurafenib, Dabrafenib, Encorafenib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "BRAF Inhibitors",
+    "phenotype": "Keratinizing Skin Tumors (cuSCC, Keratoacanthoma, Papilloma)",
+    "cut_id": "CUT045",
+    "incidence": "29-30% (BRAFi monotherapy)",
+    "tti": "Vemurafenib: Median 8 weeks; Sorafenib: 1-9 months",
+    "management_prevention": "Prevention: Regular full-body skin exam (every 4-8 weeks), Strict sun protection. Management: Surgical excision (standard) or shave removal. No need to stop/reduce drug. Local/Systemic therapy (5-FU, Imiquimod, Acitretin) for multiple lesions.",
+    "drug_examples": [
+      "Vemurafenib",
+      "Dabrafenib",
+      "Encorafenib",
+      "Sorafenib"
+    ],
+    "drug_examples_raw": "Vemurafenib, Dabrafenib, Encorafenib, Sorafenib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "BRAF Inhibitors",
+    "phenotype": "Panniculitis",
+    "cut_id": "CUT049",
+    "incidence": "13%(Vemurafenib), 3%(Dabrafenib)",
+    "tti": "Not specified",
+    "management_prevention": "Management: Rest, leg elevation, NSAIDs, systemic steroids. Usually resolves without stopping the drug.",
+    "drug_examples": [
+      "Vemurafenib",
+      "Dabrafenib",
+      "Encorafenib"
+    ],
+    "drug_examples_raw": "Vemurafenib, Dabrafenib, Encorafenib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "BRAF Inhibitors",
+    "phenotype": "Photosensitivity",
+    "cut_id": "CUT023",
+    "incidence": "30-52% (Vemurafenib) very low for Dabrafenib",
+    "tti": "Within 24 hours of sunlight exposure",
+    "management_prevention": "Prevention: Strict sun protection (UVA block, SPF 30+, PA+++), protective clothing (long sleeves, hats). Caution with window glass. Management: Topical steroids, cold compress, NSAIDs. Grade 2+: Consider dose reduction or interruption.",
+    "drug_examples": [
+      "Vemurafenib (High frequency)",
+      "Dabrafenib (Very low frequency)"
+    ],
+    "drug_examples_raw": "Vemurafenib (High frequency), Dabrafenib (Very low frequency)"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "BRAF Inhibitors",
+    "phenotype": "Rash maculo-papular (Maculopapular rash)",
+    "cut_id": "CUT027",
+    "incidence": "~68% (Vemurafenib)",
+    "tti": "Within 2 weeks (Mean 1.6 weeks)",
+    "management_prevention": "Prevention: Hypoallergenic moisturizers, tepid showers. Management: Grade 1: Moisturizers, topical steroids (Hydrocortisone, Triamcinolone), topical antibiotics. Grade 2: Oral antihistamines, mid-potency topical steroids. Grade 3: Interruption or dose reduction, systemic steroids (Prednisolone 0.5mg/kg).",
+    "drug_examples": [
+      "Vemurafenib (Most common)",
+      "Dabrafenib",
+      "Encorafenib"
+    ],
+    "drug_examples_raw": "Vemurafenib (Most common), Dabrafenib, Encorafenib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "EGFR Inhibitors",
+    "phenotype": "Acneiform Rash (Acneiform/papulopustular rash)",
+    "cut_id": "CUT042",
+    "incidence": "43-85%",
+    "tti": "Onset: 1-2 weeks. Peak: 3-4 weeks",
+    "management_prevention": "Prevention: Pre-emptive oral tetracyclines (Minocycline/Doxycycline 100mg), topical steroids (Hydrocortisone 1%), moisturizers, sun protection. Management: Grade 1: Topical steroids (Hydrocortisone, Alclometasone), topical antibiotics (Clindamycin, Metronidazole). Grade 2: Oral antibiotics (Doxycycline/Minocycline 100mg). Grade 3: Hold/reduce dose; Oral antibiotics + short-term oral corticosteroids (Prednisolone 0.5 mg/kg); Low-dose Isotretinoin for refractory cases.",
+    "drug_examples": [
+      "Cetuximab",
+      "Panitumumab",
+      "Necitumumab",
+      "Nimotuzumab",
+      "Matuzumab",
+      "Zalutumumab TKIs: Gefitinib",
+      "Erlotinib",
+      "Lapatinib",
+      "Afatinib",
+      "Dacomitinib",
+      "Neratinib",
+      "Osimertinib",
+      "Icotinib",
+      "Mobocertinib",
+      "Poziotinib"
+    ],
+    "drug_examples_raw": "mAbs: Cetuximab, Panitumumab, Necitumumab, Nimotuzumab, Matuzumab, Zalutumumab TKIs: Gefitinib, Erlotinib, Lapatinib, Afatinib, Dacomitinib, Neratinib, Osimertinib, Icotinib, Mobocertinib, Poziotinib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "EGFR Inhibitors",
+    "phenotype": "Alopecia (Mild, Androgenetic pattern)",
+    "cut_id": "CUT001",
+    "incidence": "Rare/Mild",
+    "tti": "2-3 months",
+    "management_prevention": "Management: Wigs (Grade 1), Topical Minoxidil (may help shorten duration), topical steroids (non-scarring).",
+    "drug_examples": [
+      "Cetuximab",
+      "Panitumumab",
+      "Necitumumab",
+      "Nimotuzumab",
+      "Matuzumab",
+      "Zalutumumab TKIs: Gefitinib",
+      "Erlotinib",
+      "Lapatinib",
+      "Afatinib",
+      "Dacomitinib",
+      "Neratinib",
+      "Osimertinib",
+      "Icotinib",
+      "Mobocertinib",
+      "Poziotinib"
+    ],
+    "drug_examples_raw": "mAbs: Cetuximab, Panitumumab, Necitumumab, Nimotuzumab, Matuzumab, Zalutumumab TKIs: Gefitinib, Erlotinib, Lapatinib, Afatinib, Dacomitinib, Neratinib, Osimertinib, Icotinib, Mobocertinib, Poziotinib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "EGFR Inhibitors",
+    "phenotype": "Dry skin (Xerosis) and Fissures",
+    "cut_id": "CUT004",
+    "incidence": "~35%",
+    "tti": "1-2 months (30-60 days)",
+    "management_prevention": "Prevention: Avoid irritants (alcohol, perfume), use tepid water, moisturizers BID. Management: Xerosis: Moisturizers with Urea/Lactic acid/Salicylic acid; Topical steroids (Grade 3). Fissures: Liquid bandage (Cyanoacrylate), hydrocolloid dressing, Zinc oxide, topical antibiotics, Lidocaine.",
+    "drug_examples": [
+      "Cetuximab",
+      "Panitumumab",
+      "Necitumumab",
+      "Nimotuzumab",
+      "Matuzumab",
+      "Zalutumumab TKIs: Gefitinib",
+      "Erlotinib",
+      "Lapatinib",
+      "Afatinib",
+      "Dacomitinib",
+      "Neratinib",
+      "Osimertinib",
+      "Icotinib",
+      "Mobocertinib",
+      "Poziotinib"
+    ],
+    "drug_examples_raw": "mAbs: Cetuximab, Panitumumab, Necitumumab, Nimotuzumab, Matuzumab, Zalutumumab TKIs: Gefitinib, Erlotinib, Lapatinib, Afatinib, Dacomitinib, Neratinib, Osimertinib, Icotinib, Mobocertinib, Poziotinib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "EGFR Inhibitors",
+    "phenotype": "Hair color changes (Poliosis)",
+    "cut_id": "CUT008",
+    "incidence": "Not specified",
+    "tti": "2-3 months",
+    "management_prevention": "Management: Cosmetic camouflage (Wigs, etc.) if associated with hair loss.",
+    "drug_examples": [
+      "Cetuximab",
+      "Panitumumab",
+      "Necitumumab",
+      "Nimotuzumab",
+      "Matuzumab",
+      "Zalutumumab TKIs: Gefitinib",
+      "Erlotinib",
+      "Lapatinib",
+      "Afatinib",
+      "Dacomitinib",
+      "Neratinib",
+      "Osimertinib",
+      "Icotinib",
+      "Mobocertinib",
+      "Poziotinib"
+    ],
+    "drug_examples_raw": "mAbs: Cetuximab, Panitumumab, Necitumumab, Nimotuzumab, Matuzumab, Zalutumumab TKIs: Gefitinib, Erlotinib, Lapatinib, Afatinib, Dacomitinib, Neratinib, Osimertinib, Icotinib, Mobocertinib, Poziotinib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "EGFR Inhibitors",
+    "phenotype": "Hair texture abnormal (Brittle, kinky, curly hair, slower growth)",
+    "cut_id": "CUT009",
+    "incidence": "Not specified",
+    "tti": "2-3 months",
+    "management_prevention": "Management: Wigs (if alopecia occurs), topical Minoxidil or steroids for associated hair loss.",
+    "drug_examples": [
+      "Cetuximab",
+      "Panitumumab",
+      "Necitumumab",
+      "Nimotuzumab",
+      "Matuzumab",
+      "Zalutumumab TKIs: Gefitinib",
+      "Erlotinib",
+      "Lapatinib",
+      "Afatinib",
+      "Dacomitinib",
+      "Neratinib",
+      "Osimertinib",
+      "Icotinib",
+      "Mobocertinib",
+      "Poziotinib"
+    ],
+    "drug_examples_raw": "mAbs: Cetuximab, Panitumumab, Necitumumab, Nimotuzumab, Matuzumab, Zalutumumab TKIs: Gefitinib, Erlotinib, Lapatinib, Afatinib, Dacomitinib, Neratinib, Osimertinib, Icotinib, Mobocertinib, Poziotinib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "EGFR Inhibitors",
+    "phenotype": "Hirsutism (Unwanted hair growth in women)",
+    "cut_id": "CUT010",
+    "incidence": "Not specified",
+    "tti": "2-3 months",
+    "management_prevention": "Management: Depilatory creams, laser hair removal, Eflornithine cream.",
+    "drug_examples": [
+      "Cetuximab",
+      "Panitumumab",
+      "Necitumumab",
+      "Nimotuzumab",
+      "Matuzumab",
+      "Zalutumumab TKIs: Gefitinib",
+      "Erlotinib",
+      "Lapatinib",
+      "Afatinib",
+      "Dacomitinib",
+      "Neratinib",
+      "Osimertinib",
+      "Icotinib",
+      "Mobocertinib",
+      "Poziotinib"
+    ],
+    "drug_examples_raw": "mAbs: Cetuximab, Panitumumab, Necitumumab, Nimotuzumab, Matuzumab, Zalutumumab TKIs: Gefitinib, Erlotinib, Lapatinib, Afatinib, Dacomitinib, Neratinib, Osimertinib, Icotinib, Mobocertinib, Poziotinib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "EGFR Inhibitors",
+    "phenotype": "Hypertrichosis (Trichomegaly of eyelashes)",
+    "cut_id": "CUT013",
+    "incidence": "~30% (Trichomegaly)",
+    "tti": "2-3 months",
+    "management_prevention": "Management: Trichomegaly: Regular trimming to prevent corneal damage/keratitis. Ophthalmology consultation if severe.",
+    "drug_examples": [
+      "Cetuximab",
+      "Panitumumab",
+      "Necitumumab",
+      "Nimotuzumab",
+      "Matuzumab",
+      "Zalutumumab TKIs: Gefitinib",
+      "Erlotinib",
+      "Lapatinib",
+      "Afatinib",
+      "Dacomitinib",
+      "Neratinib",
+      "Osimertinib",
+      "Icotinib",
+      "Mobocertinib",
+      "Poziotinib"
+    ],
+    "drug_examples_raw": "mAbs: Cetuximab, Panitumumab, Necitumumab, Nimotuzumab, Matuzumab, Zalutumumab TKIs: Gefitinib, Erlotinib, Lapatinib, Afatinib, Dacomitinib, Neratinib, Osimertinib, Icotinib, Mobocertinib, Poziotinib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "EGFR Inhibitors",
+    "phenotype": "Oral Mucositis / Stomatitis",
+    "cut_id": "CUT040",
+    "incidence": "Not specified",
+    "tti": "Not specified",
+    "management_prevention": "Management: Oral hygiene (soft toothbrush), avoid irritants. Topical steroids (Triamcinolone), Lidocaine, antibiotic gargle.",
+    "drug_examples": [
+      "Cetuximab",
+      "Panitumumab",
+      "Necitumumab",
+      "Nimotuzumab",
+      "Matuzumab",
+      "Zalutumumab TKIs: Gefitinib",
+      "Erlotinib",
+      "Lapatinib",
+      "Afatinib",
+      "Dacomitinib",
+      "Neratinib",
+      "Osimertinib",
+      "Icotinib",
+      "Mobocertinib",
+      "Poziotinib"
+    ],
+    "drug_examples_raw": "mAbs: Cetuximab, Panitumumab, Necitumumab, Nimotuzumab, Matuzumab, Zalutumumab TKIs: Gefitinib, Erlotinib, Lapatinib, Afatinib, Dacomitinib, Neratinib, Osimertinib, Icotinib, Mobocertinib, Poziotinib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "EGFR Inhibitors",
+    "phenotype": "Periungual / Nail Fold Toxicity (Paronychia, Pyogenic granuloma)",
+    "cut_id": "CUT041",
+    "incidence": "17.2-50%",
+    "tti": "4-8 weeks (or 2-6 months)",
+    "management_prevention": "Prevention: Avoid trauma/cutting nails too short, vinegar or chloramine soaks, prophylactic Doxycycline. Management: Grade 1: Topical potent steroids (Clobetasol) or antibiotics (Mupirocin), antiseptic soaks. Grade 2: Silver nitrate cauterization, oral antibiotics, topical beta-blockers (Timolol/Betaxolol). Grade 3: Partial nail avulsion.",
+    "drug_examples": [
+      "Cetuximab",
+      "Panitumumab",
+      "Necitumumab",
+      "Nimotuzumab",
+      "Matuzumab",
+      "Zalutumumab TKIs: Gefitinib",
+      "Erlotinib",
+      "Lapatinib",
+      "Afatinib",
+      "Dacomitinib",
+      "Neratinib",
+      "Osimertinib",
+      "Icotinib",
+      "Mobocertinib",
+      "Poziotinib"
+    ],
+    "drug_examples_raw": "mAbs: Cetuximab, Panitumumab, Necitumumab, Nimotuzumab, Matuzumab, Zalutumumab TKIs: Gefitinib, Erlotinib, Lapatinib, Afatinib, Dacomitinib, Neratinib, Osimertinib, Icotinib, Mobocertinib, Poziotinib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "EGFR Inhibitors",
+    "phenotype": "Pruritus",
+    "cut_id": "CUT024",
+    "incidence": "18.2% (Cetuximab) - 54.9% (Panitumumab)",
+    "tti": "1-2 months (associated with xerosis)",
+    "management_prevention": "Prevention: Moisturizing, tepid water. Management: Grade 1: Topical steroids, Menthol, Pramoxine. Grade 2: Oral antihistamines (non-sedating/sedating) + topical steroids. Grade 3: GABA agonists (Gabapentin/Pregabalin), Aprepitant (NK-1 antagonist), short-term oral Prednisone.",
+    "drug_examples": [
+      "Cetuximab",
+      "Panitumumab (and others)"
+    ],
+    "drug_examples_raw": "Cetuximab, Panitumumab (and others)"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "MEK Inhibitors",
+    "phenotype": "Acneiform/papulopustular eruption (No comedones)",
+    "cut_id": "CUT042",
+    "incidence": "74-93%",
+    "tti": "1-3 weeks (Rapid onset)",
+    "management_prevention": "Prevention: Hypoallergenic cleansers/moisturizers, sun protection. Consider pre-emptive oral antibiotics (Minocycline or Doxycycline). Management: Grade 1-2: Topical steroids (Class 3-4), topical antibiotics (Clindamycin), oral antihistamines for pruritus. Grade 3: Interrupt/reduce dose, oral antibiotics (Tetracycline), short-term systemic steroids (Prednisone 0.5-1 mg/kg). Culture to rule out infection.",
+    "drug_examples": [
+      "Trametinib",
+      "Cobimetinib",
+      "Binimetinib",
+      "Selumetinib"
+    ],
+    "drug_examples_raw": "Trametinib, Cobimetinib, Binimetinib, Selumetinib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "MEK Inhibitors",
+    "phenotype": "Alopecia",
+    "cut_id": "CUT001",
+    "incidence": "8-33%",
+    "tti": "After 3-4 months",
+    "management_prevention": "Management: Wigs (Grade 1), Topical Minoxidil (may help shorten duration), topical steroids (non-scarring).",
+    "drug_examples": [
+      "Trametinib",
+      "Cobimetinib",
+      "Binimetinib",
+      "Selumetinib"
+    ],
+    "drug_examples_raw": "Trametinib, Cobimetinib, Binimetinib, Selumetinib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "MEK Inhibitors",
+    "phenotype": "Dry skin (Xerosis)",
+    "cut_id": "CUT004",
+    "incidence": "30-90% (Combined with eczema)",
+    "tti": "Within 6 months (Can be slow or persistent)",
+    "management_prevention": "Management: Apply emollients (moisturizers) BID or more. Urea-containing creams may help.",
+    "drug_examples": [
+      "Trametinib",
+      "Cobimetinib",
+      "Binimetinib",
+      "Selumetinib"
+    ],
+    "drug_examples_raw": "Trametinib, Cobimetinib, Binimetinib, Selumetinib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "MEK Inhibitors",
+    "phenotype": "Eczematous dermatitis",
+    "cut_id": "CUT005",
+    "incidence": "30-90% (Combined with xerosis)",
+    "tti": "Within 6 months",
+    "management_prevention": "Management: Topical steroids for inflammatory lesions. Antihistamines or GABA agonists for severe pruritus.",
+    "drug_examples": [
+      "Trametinib",
+      "Cobimetinib",
+      "Binimetinib",
+      "Selumetinib"
+    ],
+    "drug_examples_raw": "Trametinib, Cobimetinib, Binimetinib, Selumetinib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "MEK Inhibitors",
+    "phenotype": "Edema (Peripheral edema, Periorbital/Facial edema)",
+    "cut_id": "CUT038",
+    "incidence": "20-50% (Peripheral)",
+    "tti": "Weeks to months",
+    "management_prevention": "Management: Compression therapy, leg elevation. Diuretics or dose adjustment for severe cases.",
+    "drug_examples": [
+      "Trametinib",
+      "Cobimetinib",
+      "Binimetinib",
+      "Selumetinib"
+    ],
+    "drug_examples_raw": "Trametinib, Cobimetinib, Binimetinib, Selumetinib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "MEK Inhibitors",
+    "phenotype": "Hair texture abnormal",
+    "cut_id": "CUT009",
+    "incidence": "4-50%",
+    "tti": "After 3-4 months",
+    "management_prevention": "Management: Regular trimming",
+    "drug_examples": [
+      "Trametinib",
+      "Cobimetinib",
+      "Binimetinib",
+      "Selumetinib"
+    ],
+    "drug_examples_raw": "Trametinib, Cobimetinib, Binimetinib, Selumetinib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "MEK Inhibitors",
+    "phenotype": "Oral Mucositis / Stomatitis",
+    "cut_id": "CUT040",
+    "incidence": "8-30%",
+    "tti": "After 3-4 months",
+    "management_prevention": "Management: Oral hygiene maintenance. Topical steroid gargle/application. Local anesthetics for pain.",
+    "drug_examples": [
+      "Trametinib",
+      "Cobimetinib",
+      "Binimetinib",
+      "Selumetinib"
+    ],
+    "drug_examples_raw": "Trametinib, Cobimetinib, Binimetinib, Selumetinib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "MEK Inhibitors",
+    "phenotype": "Paronychia (Periungual inflammation)",
+    "cut_id": "CUT041",
+    "incidence": "30-50%",
+    "tti": "Around 12 months (or 48 weeks)",
+    "management_prevention": "Prevention: Comfortable shoes, do not cut nails too short, avoid cuticle removal. Vinegar or diluted bleach soaks. Management: Mild: Potent topical steroids (Clobetasol), topical antibiotics (Mupirocin), antiseptic/warm saline soaks. Moderate+: Oral antibiotics (Doxycycline). Silver nitrate or surgery for granuloma.",
+    "drug_examples": [
+      "Selumetinib (Frequent)",
+      "Trametinib (Frequent)",
+      "Cobimetinib",
+      "Binimetinib"
+    ],
+    "drug_examples_raw": "Selumetinib (Frequent), Trametinib (Frequent), Cobimetinib, Binimetinib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "MEK Inhibitors",
+    "phenotype": "Skin hypopigmentation (Pigmentary dilution)",
+    "cut_id": "CUT031",
+    "incidence": "9-12%",
+    "tti": "After 1-2 months",
+    "management_prevention": "Prevention: Photoprotection. Management: Topcial steroid",
+    "drug_examples": [
+      "Trametinib",
+      "Cobimetinib",
+      "Binimetinib",
+      "Selumetinib"
+    ],
+    "drug_examples_raw": "Trametinib, Cobimetinib, Binimetinib, Selumetinib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "mTOR Inhibitors",
+    "phenotype": "Acneiform Rash",
+    "cut_id": "CUT042",
+    "incidence": "25-47% (Combined rash types)",
+    "tti": "1-2 weeks",
+    "management_prevention": "Management: Topical steroids, antibiotics.",
+    "drug_examples": [
+      "Everolimus",
+      "Temsirolimus",
+      "Sirolimus",
+      "Ridaforolimus"
+    ],
+    "drug_examples_raw": "Everolimus, Temsirolimus, Sirolimus, Ridaforolimus"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "mTOR Inhibitors",
+    "phenotype": "Dry skin (Xerosis)",
+    "cut_id": "CUT004",
+    "incidence": "Common",
+    "tti": "Not specified",
+    "management_prevention": "Prevention: Start emollients at the beginning of therapy. Management: Apply thick moisturizers frequently. Use creams containing Urea 10-40% or Ammonium lactate 12% for severe cases.",
+    "drug_examples": [
+      "Temsirolimus",
+      "Everolimus"
+    ],
+    "drug_examples_raw": "Temsirolimus, Everolimus"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "mTOR Inhibitors",
+    "phenotype": "Eczematous dermatitis (Eczematoid rash)",
+    "cut_id": "CUT005",
+    "incidence": "25-47% (Combined rash types)",
+    "tti": "1-2 weeks",
+    "management_prevention": "Management: Topical steroids, moisturizers.",
+    "drug_examples": [
+      "Everolimus",
+      "Temsirolimus",
+      "Sirolimus",
+      "Ridaforolimus"
+    ],
+    "drug_examples_raw": "Everolimus, Temsirolimus, Sirolimus, Ridaforolimus"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "mTOR Inhibitors",
+    "phenotype": "Hand-Foot Skin Reaction (HFSR)",
+    "cut_id": "CUT039",
+    "incidence": "1-10% (Rare)",
+    "tti": "Not specified",
+    "management_prevention": "Management: Moisturizers, keratolytics, topical steroids.",
+    "drug_examples": [
+      "Everolimus"
+    ],
+    "drug_examples_raw": "Everolimus"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "mTOR Inhibitors",
+    "phenotype": "Nail changes (Brittle nails)",
+    "cut_id": "CUT016",
+    "incidence": "Not specified",
+    "tti": "Few weeks - few months",
+    "management_prevention": "Management: Protective measures, moisturizers.",
+    "drug_examples": [
+      "Not specified (Class effect)"
+    ],
+    "drug_examples_raw": "Not specified (Class effect)"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "mTOR Inhibitors",
+    "phenotype": "Nail loss (Onycholysis)",
+    "cut_id": "CUT018",
+    "incidence": "Not specified",
+    "tti": "Few weeks - few months",
+    "management_prevention": "Management: Keep nails short, avoid trauma.",
+    "drug_examples": [
+      "Not specified (Class effect)"
+    ],
+    "drug_examples_raw": "Not specified (Class effect)"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "mTOR Inhibitors",
+    "phenotype": "Paronychia (Periungual inflammation)",
+    "cut_id": "CUT041",
+    "incidence": "Not specified",
+    "tti": "Few weeks - few months",
+    "management_prevention": "Management: Topical antibiotic ointment, topical steroids, vinegar soaks. Treat similarly to EGFR inhibitor toxicity.",
+    "drug_examples": [
+      "Not specified (Class effect)"
+    ],
+    "drug_examples_raw": "Not specified (Class effect)"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "mTOR Inhibitors",
+    "phenotype": "Pruritus",
+    "cut_id": "CUT024",
+    "incidence": "0.4",
+    "tti": "Not specified",
+    "management_prevention": "Management: Moisturizers, Oral antihistamines, Topical steroids.",
+    "drug_examples": [
+      "Temsirolimus"
+    ],
+    "drug_examples_raw": "Temsirolimus"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "mTOR Inhibitors",
+    "phenotype": "Pyogenic granuloma (Granuloma-like lesions)",
+    "cut_id": "CUT041",
+    "incidence": "Not specified",
+    "tti": "Few weeks - few months",
+    "management_prevention": "Management: Silver nitrate, surgical intervention if necessary.",
+    "drug_examples": [
+      "Not specified (Class effect)"
+    ],
+    "drug_examples_raw": "Not specified (Class effect)"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "mTOR Inhibitors",
+    "phenotype": "Rash maculo-papular (Morbilliform rash)",
+    "cut_id": "CUT027",
+    "incidence": "25-47% (Combined rash types)",
+    "tti": "1-2 weeks",
+    "management_prevention": "Management: Topical steroids, antihistamines.",
+    "drug_examples": [
+      "Everolimus",
+      "Temsirolimus",
+      "Sirolimus",
+      "Ridaforolimus"
+    ],
+    "drug_examples_raw": "Everolimus, Temsirolimus, Sirolimus, Ridaforolimus"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "mTOR Inhibitors",
+    "phenotype": "Stomatitis / mIAS (Aphthous-like ulcers)",
+    "cut_id": "CUT040",
+    "incidence": "30-44% (Monotherapy)",
+    "tti": "Within 8 weeks",
+    "management_prevention": "Prevention: Alcohol-free Dexamethasone mouthwash (0.5 mg/5 mL) swish and spit 4 times daily. Management: Grade 1: Non-alcoholic mouthwash, salt water. Grade 2: Topical steroids (Triamcinolone), topical anesthetics. Hold drug. Grade 3: Interrupt drug until Grade ≤1, then restart at reduced dose. Avoid alcohol/hydrogen peroxide mouthwashes.",
+    "drug_examples": [
+      "Everolimus",
+      "Temsirolimus",
+      "Sirolimus (Rapamycin)",
+      "Ridaforolimus"
+    ],
+    "drug_examples_raw": "Everolimus, Temsirolimus, Sirolimus (Rapamycin), Ridaforolimus"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "Multikinase Inhibitors (MKIs)",
+    "phenotype": "Acneiform Rash",
+    "cut_id": "CUT042",
+    "incidence": "Rare",
+    "tti": "1-8 weeks",
+    "management_prevention": "Management: Similar to general rash management (Topical steroids, etc.).",
+    "drug_examples": [
+      "Sorafenib",
+      "Sunitinib",
+      "Pazopanib",
+      "Regorafenib",
+      "Cabozantinib",
+      "Vandetanib",
+      "Lenvatinib",
+      "Axitinib"
+    ],
+    "drug_examples_raw": "Sorafenib, Sunitinib, Pazopanib, Regorafenib, Cabozantinib, Vandetanib, Lenvatinib, Axitinib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "Multikinase Inhibitors (MKIs)",
+    "phenotype": "Alopecia",
+    "cut_id": "CUT001",
+    "incidence": "Sorafenib (44%), Sunitinib (5-21%), Pazopanib (8-10%)",
+    "tti": "5-6 weeks",
+    "management_prevention": "Management: Wigs (Grade 1), Topical Minoxidil (may help shorten duration), topical steroids (non-scarring).",
+    "drug_examples": [
+      "Sorafenib",
+      "Sunitinib",
+      "Pazopanib"
+    ],
+    "drug_examples_raw": "Sorafenib, Sunitinib, Pazopanib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "Multikinase Inhibitors (MKIs)",
+    "phenotype": "Hair color changes (Depigmentation, Yellowing)",
+    "cut_id": "CUT008",
+    "incidence": ">10%",
+    "tti": "5-6 weeks",
+    "management_prevention": "Management: No treatment required. Reversible.",
+    "drug_examples": [
+      "Sunitinib",
+      "Pazopanib"
+    ],
+    "drug_examples_raw": "Sunitinib, Pazopanib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "Multikinase Inhibitors (MKIs)",
+    "phenotype": "Hand-Foot Skin Reaction (HFSR) (Hyperkeratotic plaques, callus, blistering)",
+    "cut_id": "CUT039",
+    "incidence": "Sorafenib (10-60%), Sunitinib (10-50%)",
+    "tti": "Within 26 weeks (mainly 24 weeks)",
+    "management_prevention": "Prevention: Remove calluses before treatment. Wear comfortable shoes with insoles and thick cotton socks. Prophylactic Urea 10% cream. Management: Grade 1: Moisturizers, Keratolytics (Urea 20-40%, Salicylic acid 6%), Cushioning. Grade 2: Potent topical steroids (Clobetasol 0.05%), Topical anesthetics (Lidocaine 2-5%). Grade 3: Interrupt drug (min. 7 days). Oral analgesics (NSAIDs, GABA agonists, Opioids).",
+    "drug_examples": [
+      "Sorafenib",
+      "Sunitinib",
+      "Regorafenib",
+      "Cabozantinib",
+      "Pazopanib",
+      "Vandetanib",
+      "Lenvatinib",
+      "Axitinib"
+    ],
+    "drug_examples_raw": "Sorafenib, Sunitinib, Regorafenib, Cabozantinib, Pazopanib, Vandetanib, Lenvatinib, Axitinib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "Multikinase Inhibitors (MKIs)",
+    "phenotype": "Keratinizing Skin Tumors (cuSCC, Keratoacanthoma)",
+    "cut_id": "CUT045",
+    "incidence": "Rare(0.1-1%)",
+    "tti": "After 2-36 months",
+    "management_prevention": "Management: Surgical excision or cryotherapy. Drug interruption is not required.",
+    "drug_examples": [
+      "Sorafenib"
+    ],
+    "drug_examples_raw": "Sorafenib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "Multikinase Inhibitors (MKIs)",
+    "phenotype": "Maculopapular Rash",
+    "cut_id": "CUT027",
+    "incidence": "Sorafenib (20–30%), Sunitinib (10–20%)",
+    "tti": "1-8 weeks",
+    "management_prevention": "Management: Use moisturizers and mild cleansers. Grade 1-2: Topical steroids (Class 3-4), Oral antihistamines. Grade 3: Interrupt drug, Short-term systemic steroids.",
+    "drug_examples": [
+      "Sunitinib (Common)",
+      "Sorafenib",
+      "Pazopanib",
+      "Regorafenib",
+      "Cabozantinib",
+      "Vandetanib",
+      "Lenvatinib",
+      "Axitinib"
+    ],
+    "drug_examples_raw": "Sunitinib (Common), Sorafenib, Pazopanib, Regorafenib, Cabozantinib, Vandetanib, Lenvatinib, Axitinib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "Multikinase Inhibitors (MKIs)",
+    "phenotype": "Oral Mucositis / Stomatitis",
+    "cut_id": "CUT040",
+    "incidence": "Sunitinib(>10%), Sorafenib, Pazopanib(<10%, Rare)",
+    "tti": "Not specified",
+    "management_prevention": "Prevention: Oral hygiene maintenance. Management: Topical steroid gargle/application. Local anesthetics(Lidoc for pain.",
+    "drug_examples": [
+      "Sorafenib",
+      "Sunitinib",
+      "Pazopanib"
+    ],
+    "drug_examples_raw": "Sorafenib, Sunitinib, Pazopanib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "Multikinase Inhibitors (MKIs)",
+    "phenotype": "Scrotal erythema and ulceration",
+    "cut_id": "CUT006, CUT033",
+    "incidence": "Rare, unspecified",
+    "tti": "Not specified",
+    "management_prevention": "Management: Dose modification or temporary hold. Topical management(prevention of infection, promote wound healing)",
+    "drug_examples": [
+      "Sunitinib"
+    ],
+    "drug_examples_raw": "Sunitinib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "Multikinase Inhibitors (MKIs)",
+    "phenotype": "Seborrheic dermatitis-like eruption (Facial and scalp erythema/scale)",
+    "cut_id": "CUT005",
+    "incidence": "Not specified",
+    "tti": "1-8 weeks",
+    "management_prevention": "Management: Topical antifungals (Ketoconazole), Mild topical steroids.",
+    "drug_examples": [
+      "Sorafenib"
+    ],
+    "drug_examples_raw": "Sorafenib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "Multikinase Inhibitors (MKIs)",
+    "phenotype": "Skin Hypopigmentation / Depigmentation",
+    "cut_id": "CUT031",
+    "incidence": "Pazopanib (1-10%)",
+    "tti": "Early onset (Sunitinib: might be within one week)",
+    "management_prevention": "Management: No treatment required. Educate patient that it is reversible upon discontinuation.",
+    "drug_examples": [
+      "Pazopanib",
+      "Sunitinib"
+    ],
+    "drug_examples_raw": "Pazopanib, Sunitinib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "Multikinase Inhibitors (MKIs)",
+    "phenotype": "Subungual splinter hemorrhages",
+    "cut_id": "CUT016",
+    "incidence": "Rare, unspecified",
+    "tti": "Not specified",
+    "management_prevention": "Management: No treatment required if painless. Resolves naturally.",
+    "drug_examples": [
+      "Sorafenib",
+      "Sunitinib"
+    ],
+    "drug_examples_raw": "Sorafenib, Sunitinib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "Multikinase Inhibitors (MKIs)",
+    "phenotype": "Yellow discoloration of skin",
+    "cut_id": "CUT038",
+    "incidence": ">10%",
+    "tti": "Usually within one week",
+    "management_prevention": "Management: No treatment required. Due to drug metabolite color. Reversible.",
+    "drug_examples": [
+      "Sunitinib"
+    ],
+    "drug_examples_raw": "Sunitinib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "PI3K Inhibitors",
+    "phenotype": "Dry skin (Xerosis)",
+    "cut_id": "CUT004",
+    "incidence": "Common",
+    "tti": "Not specified",
+    "management_prevention": "Management: Moisturizers, Urea creams. Note: Hyperglycemia (Alpelisib) can exacerbate dry skin.",
+    "drug_examples": [
+      "Alpelisib",
+      "Idelalisib",
+      "Copanlisib"
+    ],
+    "drug_examples_raw": "Alpelisib, Idelalisib, Copanlisib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "PI3K Inhibitors",
+    "phenotype": "Maculopapular Rash (Rash maculo-papular)",
+    "cut_id": "CUT027",
+    "incidence": "35-52% (Grade 3+: ~20%)",
+    "tti": "1-2 weeks (or first 1-2 cycles)",
+    "management_prevention": "Prevention: Prophylactic non-sedating antihistamines (e.g., Cetirizine 10mg) recommended. Management: Grade 1: Topical steroids, moisturizers. Grade 2: Topical steroids, oral prednisone (0.5-1 mg/kg). Grade 3: Hold drug, systemic steroids (Prednisone 0.5-1 mg/kg) for 10-14 days. Restart at reduced dose upon improvement.",
+    "drug_examples": [
+      "Alpelisib"
+    ],
+    "drug_examples_raw": "Alpelisib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "PI3K Inhibitors",
+    "phenotype": "Pruritus",
+    "cut_id": "CUT024",
+    "incidence": "Not specified",
+    "tti": "Not specified",
+    "management_prevention": "Management: Moisturizers, Oral antihistamines.",
+    "drug_examples": [
+      "Alpelisib"
+    ],
+    "drug_examples_raw": "Alpelisib"
+  },
+  {
+    "therapy_class": "Targeted therapy",
+    "drug_subclass": "PI3K Inhibitors",
+    "phenotype": "Stomatitis / mIAS",
+    "cut_id": "CUT040",
+    "incidence": "Lower frequency than mTOR inhibitors",
+    "tti": "Not specified",
+    "management_prevention": "Prevention: Alcohol-free Dexamethasone mouthwash (0.5 mg/5 mL) swish and spit 4 times daily. Management: Grade 1: Non-alcoholic mouthwash, salt water. Grade 2: Topical steroids (Triamcinolone), topical anesthetics. Hold drug. Grade 3: Interrupt drug until Grade ≤1, then restart at reduced dose. Avoid alcohol/hydrogen peroxide mouthwashes.",
+    "drug_examples": [
+      "Alpelisib (Common)",
+      "Copanlisib",
+      "Idelalisib",
+      "Duvelisib",
+      "Umbralisib",
+      "Inavolisib"
+    ],
+    "drug_examples_raw": "Alpelisib (Common), Copanlisib, Idelalisib, Duvelisib, Umbralisib, Inavolisib"
+  },
+  {
+    "therapy_class": "Immune Checkpoint Inhibitors (ICI)",
+    "drug_subclass": "Immune Checkpoint Inhibitors",
+    "phenotype": "Alopecia",
+    "cut_id": "CUT001",
+    "incidence": "1-2%",
+    "tti": "Usually 3-6 months later",
+    "management_prevention": "Management: Wigs (Grade 1), Topical Minoxidil (may help shorten duration), topical steroids (non-scarring).",
+    "drug_examples": [
+      "Nivolumab",
+      "Pembrolizumab",
+      "Ipilimumab",
+      "etc."
+    ],
+    "drug_examples_raw": "Nivolumab, Pembrolizumab, Ipilimumab, etc."
+  },
+  {
+    "therapy_class": "Immune Checkpoint Inhibitors (ICI)",
+    "drug_subclass": "Immune Checkpoint Inhibitors",
+    "phenotype": "Autoimmune Bullous Dermatoses (Bullous pemphigoid)",
+    "cut_id": "CUT044",
+    "incidence": "~1% (Rare)",
+    "tti": "~13-15 weeks (or later)",
+    "management_prevention": "Diagnosis: Skin biopsy (DIF), BP180/BP230 antibodies. Management: Mild: Potent topical steroids. Moderate+: Stop ICI, Systemic steroids (0.5-2 mg/kg). Refractory: Rituximab, Omalizumab, Dapsone, Methotrexate.",
+    "drug_examples": [
+      "Nivolumab",
+      "Pembrolizumab",
+      "Atezolizumab",
+      "etc. (Mainly PD-1/PD-L1)"
+    ],
+    "drug_examples_raw": "Nivolumab, Pembrolizumab, Atezolizumab, etc. (Mainly PD-1/PD-L1)"
+  },
+  {
+    "therapy_class": "Immune Checkpoint Inhibitors (ICI)",
+    "drug_subclass": "Immune Checkpoint Inhibitors",
+    "phenotype": "Dermatomyositis",
+    "cut_id": "CUT052",
+    "incidence": "Rare",
+    "tti": "Not specified",
+    "management_prevention": "Management: High-dose IV Methylprednisolone (1–2 mg/kg/day or pulse therapy), Oral Prednisone (1 mg/kg/day). Refractory: IVIG, Plasmapheresis, or other immunosuppressants (Methotrexate, Azathioprine, Mycophenolate Mofetil)",
+    "drug_examples": [
+      "Nivolumab",
+      "Pembrolizumab",
+      "Ipilimumab",
+      "etc."
+    ],
+    "drug_examples_raw": "Nivolumab, Pembrolizumab, Ipilimumab, etc."
+  },
+  {
+    "therapy_class": "Immune Checkpoint Inhibitors (ICI)",
+    "drug_subclass": "Immune Checkpoint Inhibitors",
+    "phenotype": "DRESS Syndrome",
+    "cut_id": "CUT043",
+    "incidence": "Rare",
+    "tti": "2-8 weeks",
+    "management_prevention": "Management: Similar to SJS/TEN (Systemic steroids, supportive care).",
+    "drug_examples": [
+      "Nivolumab",
+      "Pembrolizumab",
+      "Ipilimumab",
+      "etc."
+    ],
+    "drug_examples_raw": "Nivolumab, Pembrolizumab, Ipilimumab, etc."
+  },
+  {
+    "therapy_class": "Immune Checkpoint Inhibitors (ICI)",
+    "drug_subclass": "Immune Checkpoint Inhibitors",
+    "phenotype": "Lichenoid eruption (Lichenoid dermatitis)",
+    "cut_id": "CUT015",
+    "incidence": "Not specified (More common in PD-1/PD-L1)",
+    "tti": "6-12 weeks",
+    "management_prevention": "Management: First-line: Potent topical steroids (Clobetasol). Refractory/Widespread: Oral steroids or NB-UVB phototherapy. Steroid-sparing agents: Acitretin, Methotrexate, Hydroxychloroquine.",
+    "drug_examples": [
+      "Nivolumab",
+      "Pembrolizumab",
+      "Atezolizumab",
+      "etc. (Mainly PD-1/PD-L1)"
+    ],
+    "drug_examples_raw": "Nivolumab, Pembrolizumab, Atezolizumab, etc. (Mainly PD-1/PD-L1)"
+  },
+  {
+    "therapy_class": "Immune Checkpoint Inhibitors (ICI)",
+    "drug_subclass": "Immune Checkpoint Inhibitors",
+    "phenotype": "Maculopapular rash (Morbilliform)",
+    "cut_id": "CUT027",
+    "incidence": "49-68%",
+    "tti": "3-6 weeks (Early)",
+    "management_prevention": "Prevention: Hypoallergenic moisturizers BID, tepid showers, sun protection. Management: Grade 1 (<10% BSA): Continue ICI. Topical steroids (mid-high potency), oral antihistamines, moisturizers. Grade 2 (10-30% BSA): Consider holding ICI. High potency topical steroids, oral antihistamines. Systemic steroids (Prednisone 0.5-1 mg/kg) if persistent. Grade 3 (>30% BSA): Hold ICI. Systemic steroids (Prednisone 1-2 mg/kg), taper over 4-6 weeks. Grade 4: Permanently discontinue ICI. IV Methylprednisolone 1-2 mg/kg. Admit to burn unit.",
+    "drug_examples": [
+      "Ipilimumab",
+      "Tremelimumab"
+    ],
+    "drug_examples_raw": "CTLA-4i: Ipilimumab, Tremelimumab"
+  },
+  {
+    "therapy_class": "Immune Checkpoint Inhibitors (ICI)",
+    "drug_subclass": "Immune Checkpoint Inhibitors",
+    "phenotype": "Oral Mucositis",
+    "cut_id": "CUT040",
+    "incidence": "Not specified",
+    "tti": "Not specified",
+    "management_prevention": "Management: Topical steroid gargle (Dexamethasone), Ointment, Lidocaine solution. Systemic steroids if severe.",
+    "drug_examples": [
+      "Nivolumab",
+      "Pembrolizumab",
+      "Ipilimumab",
+      "etc."
+    ],
+    "drug_examples_raw": "Nivolumab, Pembrolizumab, Ipilimumab, etc."
+  },
+  {
+    "therapy_class": "Immune Checkpoint Inhibitors (ICI)",
+    "drug_subclass": "Immune Checkpoint Inhibitors",
+    "phenotype": "Pruritus",
+    "cut_id": "CUT024",
+    "incidence": "13-20% (Higher in CTLA-4)",
+    "tti": "Immediate or within weeks",
+    "management_prevention": "Management: Grade 1-2: Topical steroids, Menthol, Pramoxine, Oral antihistamines (Cetirizine, Hydroxyzine). Grade 3 (Severe/Refractory): GABA agonists (Gabapentin, Pregabalin), NK-1 receptor antagonists (Aprepitant). Biologics like Dupilumab or Omalizumab reported effective for refractory cases.",
+    "drug_examples": [
+      "Ipilimumab",
+      "Tremelimumab (More common CTLA-4 > PD-1/PD-L1)",
+      "Nivolumab",
+      "Pembrolizumab",
+      "etc."
+    ],
+    "drug_examples_raw": "Ipilimumab, Tremelimumab (More common CTLA-4 > PD-1/PD-L1); Nivolumab, Pembrolizumab, etc."
+  },
+  {
+    "therapy_class": "Immune Checkpoint Inhibitors (ICI)",
+    "drug_subclass": "Immune Checkpoint Inhibitors",
+    "phenotype": "Psoriasis / Psoriasiform",
+    "cut_id": "CUT002",
+    "incidence": "~12%",
+    "tti": "Usually 3-12 weeks",
+    "management_prevention": "Management: Topical steroids, Vitamin D analogs. Severe: Acitretin, Methotrexate, Apremilast. Caution with biologics (IL-17/IL-23 inhibitors).",
+    "drug_examples": [
+      "Nivolumab",
+      "Pembrolizumab",
+      "Ipilimumab",
+      "etc."
+    ],
+    "drug_examples_raw": "Nivolumab, Pembrolizumab, Ipilimumab, etc."
+  },
+  {
+    "therapy_class": "Immune Checkpoint Inhibitors (ICI)",
+    "drug_subclass": "Immune Checkpoint Inhibitors",
+    "phenotype": "Scleroderma",
+    "cut_id": "CUT051",
+    "incidence": "Rare",
+    "tti": "Not specified",
+    "management_prevention": "Management: Hold ICI, Prednisone 0.5–1 mg/kg/day. DMARDs (Methotrexate, Anti-TNF- α, IL-6 antagonists) may be considered for refractory arthritis, which often co-occurs",
+    "drug_examples": [
+      "Nivolumab",
+      "Pembrolizumab",
+      "Ipilimumab",
+      "etc."
+    ],
+    "drug_examples_raw": "Nivolumab, Pembrolizumab, Ipilimumab, etc."
+  },
+  {
+    "therapy_class": "Immune Checkpoint Inhibitors (ICI)",
+    "drug_subclass": "Immune Checkpoint Inhibitors",
+    "phenotype": "SJS / TEN (Stevens-Johnson syndrome / Toxic Epidermal Necrolysis)",
+    "cut_id": "CUT034",
+    "incidence": "Rare",
+    "tti": "Months later",
+    "management_prevention": "Management: Permanent discontinuation of ICI. ICU admission. High-dose IV steroids (Methylprednisolone 1-2 mg/kg/day). IVIG, Cyclosporine, Infliximab if steroid-refractory.",
+    "drug_examples": [
+      "Nivolumab",
+      "Pembrolizumab",
+      "Ipilimumab",
+      "etc."
+    ],
+    "drug_examples_raw": "Nivolumab, Pembrolizumab, Ipilimumab, etc."
+  },
+  {
+    "therapy_class": "Immune Checkpoint Inhibitors (ICI)",
+    "drug_subclass": "Immune Checkpoint Inhibitors",
+    "phenotype": "Vitiligo-like depigmentation (Vitiligo)",
+    "cut_id": "CUT031",
+    "incidence": "~25% (in Melanoma patients)",
+    "tti": "Months after start",
+    "management_prevention": "Management: Usually no treatment required (continue ICI). Educate on sun protection (burn prevention). Topical steroids or calcineurin inhibitors have limited effect. Considered a positive prognostic factor.",
+    "drug_examples": [
+      "Nivolumab",
+      "Pembrolizumab",
+      "Ipilimumab",
+      "etc."
+    ],
+    "drug_examples_raw": "Nivolumab, Pembrolizumab, Ipilimumab, etc."
+  },
+  {
+    "therapy_class": "Cytotoxic chemotherapy",
+    "drug_subclass": "Cytotoxic Chemotherapy",
+    "phenotype": "Acneiform Rash",
+    "cut_id": "CUT042",
+    "incidence": "Docetaxel: associated",
+    "tti": "Not specified",
+    "management_prevention": "Management: Not specified.",
+    "drug_examples": [
+      "Taxanes"
+    ],
+    "drug_examples_raw": "Taxanes"
+  },
+  {
+    "therapy_class": "Cytotoxic chemotherapy",
+    "drug_subclass": "Cytotoxic Chemotherapy",
+    "phenotype": "Acute Generalized Exanthematous Pustulosis (AGEP)",
+    "cut_id": "CUT047",
+    "incidence": "Rare",
+    "tti": "Not specified",
+    "management_prevention": "Management: Not specified.",
+    "drug_examples": [
+      "Docetaxel",
+      "Paclitaxel"
+    ],
+    "drug_examples_raw": "Docetaxel, Paclitaxel"
+  },
+  {
+    "therapy_class": "Cytotoxic chemotherapy",
+    "drug_subclass": "Cytotoxic Chemotherapy",
+    "phenotype": "Alopecia (Anagen effluvium)",
+    "cut_id": "CUT001",
+    "incidence": "Estimated overall incidence: 65%. High risk: Taxanes (>80%), Anthracyclines (60–100%)",
+    "tti": "Usually occurs within 7–10 days. Typically within 2–4 weeks",
+    "management_prevention": "Prevention: Scalp cooling (effective for Taxanes/Anthracyclines). Management: Wigs, sun protection. Minoxidil may help hair regrowth speed after treatment. Topical steroids if inflammation exists on biopsy.",
+    "drug_examples": [
+      "Paclitaxel",
+      "Docetaxel Anthracyclines: Doxorubicin Alkylating: Cyclophosphamide",
+      "Ifosfamide"
+    ],
+    "drug_examples_raw": "Taxanes: Paclitaxel, Docetaxel Anthracyclines: Doxorubicin Alkylating: Cyclophosphamide, Ifosfamide"
+  },
+  {
+    "therapy_class": "Cytotoxic chemotherapy",
+    "drug_subclass": "Cytotoxic Chemotherapy",
+    "phenotype": "Dry skin (Xerosis, Scaling)",
+    "cut_id": "CUT004",
+    "incidence": "Common",
+    "tti": "Epidermal barrier damage occurs early in treatment",
+    "management_prevention": "Prevention: Emoilients Management: Bland emollients (Moisturizers).",
+    "drug_examples": [
+      "Docetaxel",
+      "Paclitaxel Alkylating: Estramustine",
+      "Temozolomide"
+    ],
+    "drug_examples_raw": "Taxanes: Docetaxel, Paclitaxel Alkylating: Estramustine, Temozolomide"
+  },
+  {
+    "therapy_class": "Cytotoxic chemotherapy",
+    "drug_subclass": "Cytotoxic Chemotherapy",
+    "phenotype": "Edema (Peripheral pitting edema)",
+    "cut_id": "CUT038",
+    "incidence": "20-60%(Docetaxel - common)",
+    "tti": "Docetaxel: onset related to cumulative dose (>400 mg/m2 or 4th–5th cycle)",
+    "management_prevention": "Management: Premedication with steroids. Diuretics/Compression/Physical therapy. Dose modification/interruption",
+    "drug_examples": [
+      "Docetaxel"
+    ],
+    "drug_examples_raw": "Docetaxel"
+  },
+  {
+    "therapy_class": "Cytotoxic chemotherapy",
+    "drug_subclass": "Cytotoxic Chemotherapy",
+    "phenotype": "Erythema (Intertriginous/Flexural eruption)",
+    "cut_id": "CUT006",
+    "incidence": "Liposomal Doxorubicin: can cause intertrigo-like rash (8% incidence). Docetaxel: can cause inflammatory patches in flexural areas",
+    "tti": "Not specified",
+    "management_prevention": "Management: Low-potency topical corticosteroids (for mild cases). Topical antifungals/azoles (if fungal infection suspected)",
+    "drug_examples": [
+      "Taxanes (Intertriginous eruption)",
+      "Pegylated Liposomal Doxorubicin (Intertrigo-like rash)"
+    ],
+    "drug_examples_raw": "Taxanes (Intertriginous eruption), Pegylated Liposomal Doxorubicin (Intertrigo-like rash)"
+  },
+  {
+    "therapy_class": "Cytotoxic chemotherapy",
+    "drug_subclass": "Cytotoxic Chemotherapy",
+    "phenotype": "Erythema multiforme",
+    "cut_id": "CUT006",
+    "incidence": "Docetaxel, Fludarabine reported",
+    "tti": "Not specified",
+    "management_prevention": "Management: Stop offending agent. Systemic corticosteroids and IVIG use is controversial",
+    "drug_examples": [
+      "Methotrexate",
+      "Bleomycin"
+    ],
+    "drug_examples_raw": "Methotrexate, Bleomycin"
+  },
+  {
+    "therapy_class": "Cytotoxic chemotherapy",
+    "drug_subclass": "Cytotoxic Chemotherapy",
+    "phenotype": "Folliculitis (Sterile)",
+    "cut_id": "CUT042",
+    "incidence": "Taxanes: reported (sterile pustular eruption)",
+    "tti": "Not specified",
+    "management_prevention": "Management: Not specified (Noted as sterile).",
+    "drug_examples": [
+      "Taxanes"
+    ],
+    "drug_examples_raw": "Taxanes"
+  },
+  {
+    "therapy_class": "Cytotoxic chemotherapy",
+    "drug_subclass": "Cytotoxic Chemotherapy",
+    "phenotype": "Hand-Foot Syndrome (HFS) (Palmar-Plantar Erythrodysesthesia)",
+    "cut_id": "CUT039",
+    "incidence": "Capecitabine: 50–60% (All Grades); 10–17% (Severe/G3-4). PLD: 40–50% (All Grades); 20% (Severe). Taxanes (Docetaxel): 5–10%.",
+    "tti": "Typically within 1 day to several weeks after starting CTX",
+    "management_prevention": "Prevention: Celecoxib (proven in RCT for Capecitabine), Urea 10% cream, Cooling (for Pegylated Liposomal Doxorubicin or Docetaxel). Pyridoxine is not recommended. Management: Cold compress, moisturizers, potent topical steroids, analgesics. Grade 2-3: Dose reduction or interruption.",
+    "drug_examples": [
+      "Capecitabine (Most common)",
+      "Doxorubicin",
+      "5-Fluorouracil (5-FU)",
+      "Cytarabine",
+      "Taxanes (Docetaxel > Paclitaxel)",
+      "Methotrexate"
+    ],
+    "drug_examples_raw": "Capecitabine (Most common), Doxorubicin, 5-Fluorouracil (5-FU), Cytarabine, Taxanes (Docetaxel > Paclitaxel), Methotrexate"
+  },
+  {
+    "therapy_class": "Cytotoxic chemotherapy",
+    "drug_subclass": "Cytotoxic Chemotherapy",
+    "phenotype": "Inflammation of Actinic Keratoses",
+    "cut_id": "CUT038",
+    "incidence": "Fluorouracil, Docetaxel, Doxorubicin, Cytarabine, Paclitaxel: associated",
+    "tti": "Develops in the first week of chemotherapy",
+    "management_prevention": "Management: Topical corticosteroids",
+    "drug_examples": [
+      "5-FU",
+      "Docetaxel",
+      "Cisplatin"
+    ],
+    "drug_examples_raw": "5-FU, Docetaxel, Cisplatin"
+  },
+  {
+    "therapy_class": "Cytotoxic chemotherapy",
+    "drug_subclass": "Cytotoxic Chemotherapy",
+    "phenotype": "Nail changes (Onycholysis, Onychomadesis, Subungual abscess)",
+    "cut_id": "CUT016, CUT018",
+    "incidence": "Docetaxel (34.9%), Paclitaxel (43.7%)",
+    "tti": "Nail changes are evident after several weeks of treatment. Onycholysis/Abscess: may begin within a few weeks",
+    "management_prevention": "Prevention: Frozen gloves/socks (Cooling). Management: Keep nails short, avoid trauma. Soaking in diluted vinegar (1:1 or 1:10) for onycholysis. Saline soaking, Topical steroids/antibiotics for inflammation/infection.",
+    "drug_examples": [
+      "Docetaxel",
+      "Paclitaxel"
+    ],
+    "drug_examples_raw": "Docetaxel, Paclitaxel"
+  },
+  {
+    "therapy_class": "Cytotoxic chemotherapy",
+    "drug_subclass": "Cytotoxic Chemotherapy",
+    "phenotype": "Nail discoloration (Diffuse or banded hyperpigmentation, Melanonychia)",
+    "cut_id": "CUT017",
+    "incidence": "Cyclophosphamide, Doxorubicin, Hydroxyurea: commonly induce pigmentation",
+    "tti": "Melanonychia: develops after several months of therapy",
+    "management_prevention": "Management: Camouflage with nail polish",
+    "drug_examples": [
+      "Cyclophosphamide",
+      "Doxorubicin",
+      "Hydroxyurea"
+    ],
+    "drug_examples_raw": "Cyclophosphamide, Doxorubicin, Hydroxyurea"
+  },
+  {
+    "therapy_class": "Cytotoxic chemotherapy",
+    "drug_subclass": "Cytotoxic Chemotherapy",
+    "phenotype": "Oral Mucositis / Stomatitis",
+    "cut_id": "CUT040",
+    "incidence": "Very common",
+    "tti": "few days after administration",
+    "management_prevention": "Prevention: Oral cryotherapy (Ice chips) for 5-FU. Management: Dexamethasone mouthwash, supportive care(lidocaine, etc)",
+    "drug_examples": [
+      "5-FU",
+      "Melphalan",
+      "Cisplatin (90% with RT)",
+      "Docetaxel",
+      "Bendamustine",
+      "Ifosfamide",
+      "Bleomycin",
+      "Doxorubicin"
+    ],
+    "drug_examples_raw": "5-FU, Melphalan, Cisplatin (90% with RT), Docetaxel, Bendamustine, Ifosfamide, Bleomycin, Doxorubicin"
+  },
+  {
+    "therapy_class": "Cytotoxic chemotherapy",
+    "drug_subclass": "Cytotoxic Chemotherapy",
+    "phenotype": "Paronychia (Periungual inflammation)",
+    "cut_id": "CUT041",
+    "incidence": "Commonly reported with Capecitabine/Methotrexate/Doxorubicin/Taxanes",
+    "tti": "Develops after several weeks or months of treatment",
+    "management_prevention": "Management: Topical steroids, antibiotic ointment. Severe cases: Surgical drainage.",
+    "drug_examples": [
+      "Docetaxel",
+      "Paclitaxel"
+    ],
+    "drug_examples_raw": "Docetaxel, Paclitaxel"
+  },
+  {
+    "therapy_class": "Cytotoxic chemotherapy",
+    "drug_subclass": "Cytotoxic Chemotherapy",
+    "phenotype": "Persistent Alopecia (CIPAL)",
+    "cut_id": "CUT001",
+    "incidence": "Permanent loss ≥ 6 months post-cessation. Higher risk: Docetaxel (2% incidence reported), Busulfan",
+    "tti": "Occurs >6 months after cessation",
+    "management_prevention": "Management: Topical Minoxidil (up to 5%): may potentially stimulate regrowth. Surgical (hair transplantation)",
+    "drug_examples": [
+      "Docetaxel",
+      "Paclitaxel Alkylating: Busulfan (High dose)"
+    ],
+    "drug_examples_raw": "Taxanes: Docetaxel, Paclitaxel Alkylating: Busulfan (High dose)"
+  },
+  {
+    "therapy_class": "Cytotoxic chemotherapy",
+    "drug_subclass": "Cytotoxic Chemotherapy",
+    "phenotype": "Photosensitivity (Phototoxicity)",
+    "cut_id": "CUT023",
+    "incidence": "Fluorouracil, Capecitabine, Dacarbazine, Vinblastine: involved. Paclitaxel, Docetaxel: cause UV recall",
+    "tti": "Sunburn-like reactions: within minutes to weeks/months",
+    "management_prevention": "Prevention: Strict sun protection (Sunscreen, protective clothing). Management: Cessation of causing agents, Topical/Systemic steroids, NSAIDs, antihistamines.",
+    "drug_examples": [
+      "Methotrexate (Common)",
+      "5-FU",
+      "Dacarbazine",
+      "Taxanes (Paclitaxel",
+      "Docetaxel)"
+    ],
+    "drug_examples_raw": "Methotrexate (Common), 5-FU, Dacarbazine, Taxanes (Paclitaxel, Docetaxel)"
+  },
+  {
+    "therapy_class": "Cytotoxic chemotherapy",
+    "drug_subclass": "Cytotoxic Chemotherapy",
+    "phenotype": "Pruritus",
+    "cut_id": "CUT024",
+    "incidence": ">10%",
+    "tti": "Occurs shortly after infusion",
+    "management_prevention": "Prevention: moisturization/skin care Management: antihistsamines, topical antipruritics",
+    "drug_examples": [
+      "Docetaxel",
+      "Paclitaxel"
+    ],
+    "drug_examples_raw": "Taxanes: Docetaxel, Paclitaxel"
+  },
+  {
+    "therapy_class": "Cytotoxic chemotherapy",
+    "drug_subclass": "Cytotoxic Chemotherapy",
+    "phenotype": "Radiation Recall Dermatitis",
+    "cut_id": "CUT046",
+    "incidence": "Doxorubicin, Capecitabine, Gemcitabine, Docetaxel, Paclitaxel: involved",
+    "tti": "During, immediately after, or within days of chemo",
+    "management_prevention": "Management: Cessation/delay, Topical, systemic corticosteroids.",
+    "drug_examples": [
+      "Taxanes",
+      "Doxorubicin",
+      "Gemcitabine",
+      "Methotrexate",
+      "Cisplatin",
+      "Dactinomycin"
+    ],
+    "drug_examples_raw": "Taxanes, Doxorubicin, Gemcitabine, Methotrexate, Cisplatin, Dactinomycin"
+  },
+  {
+    "therapy_class": "Cytotoxic chemotherapy",
+    "drug_subclass": "Cytotoxic Chemotherapy",
+    "phenotype": "Rash maculo-papular (Diffuse macules and papules, Morbilliform eruption)",
+    "cut_id": "CUT027",
+    "incidence": "Cladribine, Gemcitabine, Fludarabine: reported. Gemcitabine: reported in 19%",
+    "tti": "Gemcitabine (Etoposide similar): begins about 1 week after initiation",
+    "management_prevention": "Management: Topical steroids or systemic corticosteroids Severe cases: Dose reduction or interruption.",
+    "drug_examples": [
+      "Docetaxel (Very common)",
+      "Paclitaxel Alkylating: Temozolomide",
+      "Estramustine"
+    ],
+    "drug_examples_raw": "Taxanes: Docetaxel (Very common), Paclitaxel Alkylating: Temozolomide, Estramustine"
+  },
+  {
+    "therapy_class": "Cytotoxic chemotherapy",
+    "drug_subclass": "Cytotoxic Chemotherapy",
+    "phenotype": "Skin hyperpigmentation (Flagellate dermatitis, Serpentine supravenous hyperpigmentation)",
+    "cut_id": "CUT030",
+    "incidence": "Bleomycin (Flagellate dermatitis): up to 30%. Taxanes (Serpentine): reported",
+    "tti": "Bleomycin (Flagellate): onset is hours to months after infusion",
+    "management_prevention": "Prevention: Strict sun avoidance Management: Flagellate Dermatitis: resolves 3–4 months post-cessation. Topical retinoids (for improved melanin turnover)",
+    "drug_examples": [
+      "Bleomycin (Flagellate)",
+      "5-FU/Taxanes/Vinorelbine (Serpentine supravenous)",
+      "Cyclophosphamide (Diffuse/Palms/Soles/Teeth)",
+      "Ifosfamide (Flexural)"
+    ],
+    "drug_examples_raw": "Bleomycin (Flagellate), 5-FU/Taxanes/Vinorelbine (Serpentine supravenous), Cyclophosphamide (Diffuse/Palms/Soles/Teeth), Ifosfamide (Flexural)"
+  },
+  {
+    "therapy_class": "Cytotoxic chemotherapy",
+    "drug_subclass": "Cytotoxic Chemotherapy",
+    "phenotype": "Skin ulceration (Extravasation / Tissue necrosis)",
+    "cut_id": "CUT033",
+    "incidence": "Anthracyclines (Doxorubicin), Vinca alkaloids (Vincristine), Taxanes (Paclitaxel, Docetaxel): primary vesicants",
+    "tti": "Onset is subclinical initially (burning, erythema) followed by necrosis after 2–3 days",
+    "management_prevention": "Management: Stop infusion immediately, aspirate drug. Cold pack: Anthracyclines, Taxanes, Alkylating agents. Warm pack: Vinca Alkaloids, Etoposide. Antidotes: Dexrazoxane/DMSO (Anthracyclines), Hyaluronidase (Vinca Alkaloids).",
+    "drug_examples": [
+      "Doxorubicin Vinca Alkaloids: Vincristine",
+      "Vinblastine Mitotic: Taxanes"
+    ],
+    "drug_examples_raw": "Anthracyclines: Doxorubicin Vinca Alkaloids: Vincristine, Vinblastine Mitotic: Taxanes"
+  },
+  {
+    "therapy_class": "Cytotoxic chemotherapy",
+    "drug_subclass": "Cytotoxic Chemotherapy",
+    "phenotype": "Stiff skin (Scleroderma-like changes, Cutaneous sclerosis/fibrosis)",
+    "cut_id": "CUT032",
+    "incidence": "Paclitaxel/Docetaxel: cause cutaneous sclerosis. Bleomycin: cause localized sclerosis.",
+    "tti": "Progressive over several months",
+    "management_prevention": "Management: Resolves upon drug discontinuation. Prednisone +(Methotexate)",
+    "drug_examples": [
+      "Docetaxel",
+      "Paclitaxel",
+      "Bleomycin"
+    ],
+    "drug_examples_raw": "Docetaxel, Paclitaxel, Bleomycin"
+  },
+  {
+    "therapy_class": "Cytotoxic chemotherapy",
+    "drug_subclass": "Cytotoxic Chemotherapy",
+    "phenotype": "Urticaria (Hypersensitivity reaction)",
+    "cut_id": "CUT037",
+    "incidence": "Platinum drugs, Taxanes, Cyclophosphamide: common offenders",
+    "tti": "Minutes to days after infusion",
+    "management_prevention": "Prevention: Pretreatment with steroids/antihistamines. Desensitization protocols Management: Antihistamines and corticosteroids",
+    "drug_examples": [
+      "Cisplatin",
+      "Carboplatin"
+    ],
+    "drug_examples_raw": "Cisplatin, Carboplatin"
+  },
+  {
+    "therapy_class": "Cytotoxic chemotherapy",
+    "drug_subclass": "Cytotoxic Chemotherapy",
+    "phenotype": "UV Recall Reaction (Inflammation on previous solar erythema)",
+    "cut_id": "CUT023",
+    "incidence": "Paclitaxel, Docetaxel: causative agents. Methotrexate also implicated",
+    "tti": "Days or weeks after chemo (on old burn site)",
+    "management_prevention": "Prevention: Sun avoidance Management: Removal of offending agent (chemotherapy). Topical/Systemic Corticosteroids (for symptomatic relief)",
+    "drug_examples": [
+      "Methotrexate",
+      "Gemcitabine",
+      "Taxanes"
+    ],
+    "drug_examples_raw": "Methotrexate, Gemcitabine, Taxanes"
+  },
+  {
+    "therapy_class": "Antibody Drug Conjugates (ADC)",
+    "drug_subclass": "Antibody-Drug Conjugates (ADCs)",
+    "phenotype": "Acneiform Rash",
+    "cut_id": "CUT042",
+    "incidence": "Not specified (Common in ADC class)",
+    "tti": "Early treatment (Within several weeks)",
+    "management_prevention": "Management: Similar to general rash management.",
+    "drug_examples": [
+      "Tisotumab vedotin (TV)",
+      "General ADCs"
+    ],
+    "drug_examples_raw": "Tisotumab vedotin (TV), General ADCs"
+  },
+  {
+    "therapy_class": "Antibody Drug Conjugates (ADC)",
+    "drug_subclass": "Antibody-Drug Conjugates (ADCs)",
+    "phenotype": "Alopecia",
+    "cut_id": "CUT001",
+    "incidence": "Sacituzumab govitecan (SG): 46~50% (All Grades), Trastuzumab deruxtecan (T-DXd): 37% (All Grades), Datopotamab deruxtecan (Dato-DXd): 65% (All Grades)",
+    "tti": "Not specified (Generally, several months after initiation)",
+    "management_prevention": "Management: Wigs, supportive care. Scalp cooling may be effective for T-DXd (evidence accumulating).",
+    "drug_examples": [
+      "Sacituzumab govitecan (SG)",
+      "Trastuzumab deruxtecan (T-DXd)",
+      "Datopotamab deruxtecan (Dato-DXd)"
+    ],
+    "drug_examples_raw": "Sacituzumab govitecan (SG), Trastuzumab deruxtecan (T-DXd), Datopotamab deruxtecan (Dato-DXd)"
+  },
+  {
+    "therapy_class": "Antibody Drug Conjugates (ADC)",
+    "drug_subclass": "Antibody-Drug Conjugates (ADCs)",
+    "phenotype": "Dermatosis bullous (Bullous lesions)",
+    "cut_id": "CUT003",
+    "incidence": "Not specified (Part of severe ADC toxicity)",
+    "tti": "Not specified (Within the first cycle of treatment for EV)",
+    "management_prevention": "Management: Immediate interruption (Hold). If severe, permanently discontinue. Systemic steroids. Rule out SJS/TEN.",
+    "drug_examples": [
+      "Enfortumab vedotin (EV)"
+    ],
+    "drug_examples_raw": "Enfortumab vedotin (EV)"
+  },
+  {
+    "therapy_class": "Antibody Drug Conjugates (ADC)",
+    "drug_subclass": "Antibody-Drug Conjugates (ADCs)",
+    "phenotype": "DRESS Syndrome",
+    "cut_id": "CUT043",
+    "incidence": "Not specified (Rare, Case Reports with Brentuximab vedotin, Enfortumab vedotin, etc.)",
+    "tti": "2–8 weeks",
+    "management_prevention": "Management: Immediate discontinuation. Systemic steroids.",
+    "drug_examples": [
+      "Brentuximab vedotin (BV)"
+    ],
+    "drug_examples_raw": "Brentuximab vedotin (BV)"
+  },
+  {
+    "therapy_class": "Antibody Drug Conjugates (ADC)",
+    "drug_subclass": "Antibody-Drug Conjugates (ADCs)",
+    "phenotype": "Dry skin (Xerosis)",
+    "cut_id": "CUT004",
+    "incidence": "Not specified (Common)",
+    "tti": "Not specified",
+    "management_prevention": "Management: Moisturizers.",
+    "drug_examples": [
+      "General ADCs"
+    ],
+    "drug_examples_raw": "General ADCs"
+  },
+  {
+    "therapy_class": "Antibody Drug Conjugates (ADC)",
+    "drug_subclass": "Antibody-Drug Conjugates (ADCs)",
+    "phenotype": "Erythema (SDRIFE-like rash in intertriginous areas)",
+    "cut_id": "CUT006",
+    "incidence": "Not specified (Characteristic of EV)",
+    "tti": "Within days to several weeks after initiation (EV standard)",
+    "management_prevention": "Prevention: Zinc-containing moisturizers on intertriginous areas. Management: Topical steroids, moisturizers.",
+    "drug_examples": [
+      "Enfortumab vedotin (EV)"
+    ],
+    "drug_examples_raw": "Enfortumab vedotin (EV)"
+  },
+  {
+    "therapy_class": "Antibody Drug Conjugates (ADC)",
+    "drug_subclass": "Antibody-Drug Conjugates (ADCs)",
+    "phenotype": "Erythroderma (Exfoliative dermatitis)",
+    "cut_id": "CUT007",
+    "incidence": "Not specified (Part of EV Grade ≥3 toxicity)",
+    "tti": "Within the first cycle of treatment (EV standard)",
+    "management_prevention": "Management: Treat as severe skin reaction (Grade 3). Stop drug and administer systemic steroids.",
+    "drug_examples": [
+      "Enfortumab vedotin (EV)"
+    ],
+    "drug_examples_raw": "Enfortumab vedotin (EV)"
+  },
+  {
+    "therapy_class": "Antibody Drug Conjugates (ADC)",
+    "drug_subclass": "Antibody-Drug Conjugates (ADCs)",
+    "phenotype": "Hand-Foot Syndrome (HFS) (PPE)",
+    "cut_id": "CUT039",
+    "incidence": "Not specified (Reported with Enfortumab vedotin)",
+    "tti": "Within days to several weeks after initiation (EV standard)",
+    "management_prevention": "Management: Standard HFS management (Moisturizers, Urea).",
+    "drug_examples": [
+      "General ADCs"
+    ],
+    "drug_examples_raw": "General ADCs"
+  },
+  {
+    "therapy_class": "Antibody Drug Conjugates (ADC)",
+    "drug_subclass": "Antibody-Drug Conjugates (ADCs)",
+    "phenotype": "Lichenoid dermatitis (Lichenoid rash)",
+    "cut_id": "CUT015",
+    "incidence": "Not specified (Common in ADC class)",
+    "tti": "Early treatment (6–12 weeks)",
+    "management_prevention": "Management: Grade 1-2: Topical corticosteroids (TCS) (topical intervention indicated),,; Severe (Grade ≥ 3): Hold ADC/ICI therapy, initiate high-dose systemic corticosteroids",
+    "drug_examples": [
+      "General ADCs"
+    ],
+    "drug_examples_raw": "General ADCs"
+  },
+  {
+    "therapy_class": "Antibody Drug Conjugates (ADC)",
+    "drug_subclass": "Antibody-Drug Conjugates (ADCs)",
+    "phenotype": "Maculopapular Rash (Rash, Maculopapular rash)",
+    "cut_id": "CUT027",
+    "incidence": "EV: 56% (All skin reactions), 24% (Maculopapular); General: Common",
+    "tti": "EV: Within 1 month (1st cycle); General: Within weeks",
+    "management_prevention": "Prevention: EV: Apply Zinc-containing moisturizers to intertriginous areas. Sunscreen. Management: Grade 1: Moisturizers, topical steroids, oral antihistamines. Grade 2: Potent topical steroids. Hold drug until improved to Grade ≤1. Grade 3: Permanently discontinue EV (for severe/bullous). Systemic steroids (Prednisone 0.5-1 mg/kg).",
+    "drug_examples": [
+      "Enfortumab vedotin (EV)",
+      "Sacituzumab govitecan (SG)",
+      "Brentuximab vedotin (BV)",
+      "Loncastuximab tesirine (LT)",
+      "General ADCs"
+    ],
+    "drug_examples_raw": "Enfortumab vedotin (EV), Sacituzumab govitecan (SG), Brentuximab vedotin (BV), Loncastuximab tesirine (LT), General ADCs"
+  },
+  {
+    "therapy_class": "Antibody Drug Conjugates (ADC)",
+    "drug_subclass": "Antibody-Drug Conjugates (ADCs)",
+    "phenotype": "Oral Mucositis / Stomatitis",
+    "cut_id": "CUT040",
+    "incidence": "Dato-DXd: 69%, T-DXd: 20%, SG: 17%",
+    "tti": "Not specified (Generally, within 8 weeks after initiation)",
+    "management_prevention": "Prevention: Dexamethasone mouthwash gargle. Management: Soft toothbrush, avoid irritants. Topical anesthetics/coating agents.",
+    "drug_examples": [
+      "Sacituzumab govitecan (SG)",
+      "Trastuzumab deruxtecan (T-DXd)",
+      "Datopotamab deruxtecan (Dato-DXd)"
+    ],
+    "drug_examples_raw": "Sacituzumab govitecan (SG), Trastuzumab deruxtecan (T-DXd), Datopotamab deruxtecan (Dato-DXd)"
+  },
+  {
+    "therapy_class": "Antibody Drug Conjugates (ADC)",
+    "drug_subclass": "Antibody-Drug Conjugates (ADCs)",
+    "phenotype": "Photosensitivity (Phototoxic rash)",
+    "cut_id": "CUT023",
+    "incidence": "Not specified (Reported with Loncastuximab tesirine)",
+    "tti": "Not specified",
+    "management_prevention": "Prevention: Minimize sun exposure. Wear sun-protective clothing (essential due to PBD payload). Sunscreen. Management: Steroids have limited effect.",
+    "drug_examples": [
+      "Loncastuximab tesirine (LT)"
+    ],
+    "drug_examples_raw": "Loncastuximab tesirine (LT)"
+  },
+  {
+    "therapy_class": "Antibody Drug Conjugates (ADC)",
+    "drug_subclass": "Antibody-Drug Conjugates (ADCs)",
+    "phenotype": "Pruritus",
+    "cut_id": "CUT024",
+    "incidence": "Enfortumab vedotin (EV): 33% (All Grades), T-DXd: 8% (All Grades)",
+    "tti": "Early treatment (Within several weeks)",
+    "management_prevention": "Management: Oral antihistamines, moisturizers.",
+    "drug_examples": [
+      "General ADCs (e.g.",
+      "Tisotumab vedotin)"
+    ],
+    "drug_examples_raw": "General ADCs (e.g., Tisotumab vedotin)"
+  },
+  {
+    "therapy_class": "Antibody Drug Conjugates (ADC)",
+    "drug_subclass": "Antibody-Drug Conjugates (ADCs)",
+    "phenotype": "Skin hyperpigmentation",
+    "cut_id": "CUT030",
+    "incidence": "T-DXd: 6% (All Grades)",
+    "tti": "Not specified",
+    "management_prevention": "Prevention: Strict sun avoidance with broad spectrum UV protection. Management: Camouflage discoloration, topical retinoids, hydroquinone",
+    "drug_examples": [
+      "General ADCs"
+    ],
+    "drug_examples_raw": "General ADCs"
+  },
+  {
+    "therapy_class": "Antibody Drug Conjugates (ADC)",
+    "drug_subclass": "Antibody-Drug Conjugates (ADCs)",
+    "phenotype": "Stevens-Johnson syndrome (SJS)",
+    "cut_id": "CUT034",
+    "incidence": "Not specified (Rare, reported as SCAR in ADCs)",
+    "tti": "1–8 weeks (Standard for targeted therapy SCARs)",
+    "management_prevention": "Management: Permanently discontinue drug immediately. Hospitalization, high-dose systemic steroids (Methylprednisolone), supportive care.",
+    "drug_examples": [
+      "Enfortumab vedotin (EV)",
+      "Polatuzumab vedotin (with Rituximab)"
+    ],
+    "drug_examples_raw": "Enfortumab vedotin (EV), Polatuzumab vedotin (with Rituximab)"
+  },
+  {
+    "therapy_class": "Antibody Drug Conjugates (ADC)",
+    "drug_subclass": "Antibody-Drug Conjugates (ADCs)",
+    "phenotype": "Telangiectasia (Spider angioma-like, Diffuse reticulated)",
+    "cut_id": "CUT035",
+    "incidence": "Not specified (Characteristic of T-DM1)",
+    "tti": "Not specified",
+    "management_prevention": "Management: T-DM1: Laser therapy or Electrocautery for persistent lesions (cosmetic/psychological benefit).",
+    "drug_examples": [
+      "Loncastuximab tesirine (LT)",
+      "Trastuzumab emtansine (T-DM1)"
+    ],
+    "drug_examples_raw": "Loncastuximab tesirine (LT), Trastuzumab emtansine (T-DM1)"
+  },
+  {
+    "therapy_class": "Antibody Drug Conjugates (ADC)",
+    "drug_subclass": "Antibody-Drug Conjugates (ADCs)",
+    "phenotype": "Toxic Epidermal Necrolysis (TEN)",
+    "cut_id": "CUT034",
+    "incidence": "Not specified (Rare, reported as SCAR in ADCs)",
+    "tti": "1–8 weeks (Standard for targeted therapy SCARs)",
+    "management_prevention": "Management: Same as SJS. Permanently discontinue.",
+    "drug_examples": [
+      "Enfortumab vedotin (EV)",
+      "Polatuzumab vedotin"
+    ],
+    "drug_examples_raw": "Enfortumab vedotin (EV), Polatuzumab vedotin"
+  }
+]
