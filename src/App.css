@@ -11,7 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: #2C5F8D;
 }
 
 .loading-message {
@@ -35,12 +35,12 @@
 }
 
 .react-flow__edge-path {
-  stroke: #999;
+  stroke: #7FB3A3;
   stroke-width: 2;
 }
 
 .react-flow__edge.selected .react-flow__edge-path {
-  stroke: #667eea;
+  stroke: #2C5F8D;
   stroke-width: 3;
 }
 
@@ -48,7 +48,7 @@
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: #555;
+  background: #4A90A4;
   border: 2px solid white;
 }
 
