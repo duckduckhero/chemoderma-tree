@@ -32,8 +32,11 @@ const nodeWidth = 200;
 const nodeHeight = 80;
 
 function App() {
+  const [allNodes, setAllNodes] = useState([]);
+  const [allEdges, setAllEdges] = useState([]);
   const [nodes, setNodes, onNodesChange] = useNodesState([]);
   const [edges, setEdges, onEdgesChange] = useEdgesState([]);
+  const [expandedNodes, setExpandedNodes] = useState(new Set()); // Start with nothing expanded (only root visible)
   const [selectedPhenotype, setSelectedPhenotype] = useState(null);
   const [isPanelOpen, setIsPanelOpen] = useState(false);
   const [treeData, setTreeData] = useState(null);
@@ -54,7 +57,7 @@ function App() {
     const { nodes: initialNodes, edges: initialEdges } = transformTreeToReactFlow(treeData);
     
     // Apply dagre layout - increased horizontal spacing (ranksep) for wider tree
-    dagreGraph.setGraph({ rankdir: 'LR', nodesep: 60, ranksep: 350 });
+    dagreGraph.setGraph({ rankdir: 'LR', nodesep: 60, ranksep: 800 });
     
     initialNodes.forEach((node) => {
       dagreGraph.setNode(node.id, { width: nodeWidth, height: nodeHeight });
@@ -77,10 +80,78 @@ function App() {
       };
     });
     
-    setNodes(layoutedNodes);
-    setEdges(initialEdges);
+    // Store all nodes and edges
+    setAllNodes(layoutedNodes);
+    setAllEdges(initialEdges);
+  }, [treeData]);
+
+  // Filter visible nodes and edges based on expansion state
+  useEffect(() => {
+    if (allNodes.length === 0) return;
+
+    // Build a set of visible node IDs (root is always visible + all descendants of expanded nodes)
+    const visibleNodeIds = new Set(['root']);
     
-    // Fit view after a short delay to ensure nodes are rendered
+    function addVisibleChildren(nodeId) {
+      // Root is always visible, but only show its children if expanded
+      // For other nodes, only show children if the node itself is expanded
+      if (nodeId !== 'root' && !expandedNodes.has(nodeId)) return;
+      
+      // Find all children of this node
+      const children = allEdges
+        .filter(edge => edge.source === nodeId)
+        .map(edge => edge.target);
+      
+      children.forEach(childId => {
+        visibleNodeIds.add(childId);
+        addVisibleChildren(childId); // Recursively add children if parent is expanded
+      });
+    }
+    
+    // Start from root - it's always visible, show children if expanded
+    if (expandedNodes.has('root')) {
+      addVisibleChildren('root');
+    }
+    
+    // Filter nodes and edges
+    const visibleNodes = allNodes.filter(node => visibleNodeIds.has(node.id));
+    const visibleEdges = allEdges.filter(
+      edge => visibleNodeIds.has(edge.source) && visibleNodeIds.has(edge.target)
+    );
+    
+    // Recalculate layout for visible nodes only
+    const tempGraph = new dagre.graphlib.Graph();
+    tempGraph.setDefaultEdgeLabel(() => ({}));
+    tempGraph.setGraph({ rankdir: 'LR', nodesep: 60, ranksep: 800 });
+    
+    visibleNodes.forEach((node) => {
+      tempGraph.setNode(node.id, { width: nodeWidth, height: nodeHeight });
+    });
+    
+    visibleEdges.forEach((edge) => {
+      tempGraph.setEdge(edge.source, edge.target);
+    });
+    
+    dagre.layout(tempGraph);
+    
+    const relayoutedNodes = visibleNodes.map((node) => {
+      const nodeWithPosition = tempGraph.node(node.id);
+      if (nodeWithPosition) {
+        return {
+          ...node,
+          position: {
+            x: nodeWithPosition.x - nodeWidth / 2,
+            y: nodeWithPosition.y - nodeHeight / 2,
+          },
+        };
+      }
+      return node;
+    });
+    
+    setNodes(relayoutedNodes);
+    setEdges(visibleEdges);
+    
+    // Fit view after layout
     setTimeout(() => {
       if (reactFlowInstance.current) {
         reactFlowInstance.current.fitView({ 
@@ -90,16 +161,29 @@ function App() {
         });
       }
     }, 100);
-  }, [treeData, setNodes, setEdges]);
+  }, [allNodes, allEdges, expandedNodes, setNodes, setEdges]);
 
   // Handle node click
   const onNodeClick = useCallback((event, node) => {
+    // If it's a phenotype, show details panel
     if (node.type === 'phenotype' && treeData) {
       const phenotypeData = getPhenotypeDetails(treeData, node.id);
       if (phenotypeData) {
         setSelectedPhenotype(phenotypeData);
         setIsPanelOpen(true);
       }
+    } 
+    // For other node types, toggle expansion
+    else if (node.type !== 'phenotype') {
+      setExpandedNodes(prev => {
+        const newSet = new Set(prev);
+        if (newSet.has(node.id)) {
+          newSet.delete(node.id);
+        } else {
+          newSet.add(node.id);
+        }
+        return newSet;
+      });
     }
   }, [treeData]);
 
