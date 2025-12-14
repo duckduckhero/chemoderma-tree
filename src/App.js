@@ -203,7 +203,7 @@ function App() {
   if (!treeData) {
     return (
       <div className="app-container loading">
-        <div className="loading-message">Loading ChemoDERMA Tree...</div>
+        <div className="loading-message">Loading CHEMODERMA Tree...</div>
       </div>
     );
   }

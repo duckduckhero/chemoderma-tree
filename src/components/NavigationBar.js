@@ -6,7 +6,7 @@ function NavigationBar() {
     <nav className="navigation-bar">
       <div className="nav-content">
         <div className="nav-title">
-          <h1>박정인 온톨로지</h1>
+          <h1>CHEMODERMA</h1>
         </div>
         <div className="nav-search">
           <input
